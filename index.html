@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        @keyframes round {
+            0% {
+                transform: translate(0,0);
+                background-color: rgb(250,192,144);
+            }
+            25% {
+                transform: translate(500px,0);
+                background-color: rgb(255,255,0);
+            }
+            50% {
+                transform: translate(500px,500px);
+                background-color: rgb(146,208,80);
+            }
+            75% {
+                transform: translate(0,500px);
+                background-color: rgb(170,154,189);
+            }
+            100% {
+                transform: translate(0,0);
+                background-color: rgb(250,192,144);
+            } 
+        }
+        div {
+                width: 50px;
+                height:50px;
+                background-color: red;
+                animation-name: round;
+                animation-duration: 15s;
+                
+            }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
